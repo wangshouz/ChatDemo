@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="grey">#333333</color>
+    <color name="color_black_333333">#333333</color>
+    <color name="color_red_ccfa3c55">#ccfa3c55</color>
+
+    <color name="color_message_default_bg">#e9ecf0</color>
+    <color name="input_panel_text_color_757572">#757572</color>
+
+</resources>

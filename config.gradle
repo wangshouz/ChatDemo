@@ -1,0 +1,48 @@
+// 公共配置
+ext {
+
+    plugins = [
+            application: 'com.android.application',
+            library    : 'com.android.library',
+//            greendao   : 'org.greenrobot.greendao',
+//            butterknife: 'android-apt',
+    ]
+
+    android = [
+            compileSdkVersion: 25,
+            buildToolsVersion: "25.0.2",
+            minSdkVersion    : 14,
+            targetSdkVersion : 22,
+    ]
+
+    dependencies = [
+            support        : 'com.android.support:support-v4:25.3.0',
+            appcompat      : 'com.android.support:appcompat-v7:25.3.1',
+            design         : 'com.android.support:design:25.3.1',
+            recyclerview   : 'com.android.support:recyclerview-v7:25.3.1',
+            constraint     : 'com.android.support.constraint:constraint-layout:1.0.2',
+
+            // 第三方库
+            // 图片加载---https://github.com/bumptech/glide
+//            glide          : 'com.github.bumptech.glide:glide:3.7.0',
+            // 网络请求---https://github.com/yanzhenjie/NoHttp
+//            nohttp         : 'com.yolanda.nohttp:nohttp:1.1.1',
+            // MultiType---https://github.com/drakeet/Effective-MultiType/blob/master/README.md
+//            multitype      : 'me.drakeet.multitype:multitype:3.0.0',
+            // eventbus---http://greenrobot.org/eventbus/documentation/how-to-get-started/
+//            eventbus       : 'org.greenrobot:eventbus:3.0.0',
+            // 数据库greendao---
+//            greendao       : 'org.greenrobot:greendao:3.2.0',
+            // 数据库升级---https://github.com/yuweiguocn/GreenDaoUpgradeHelper/blob/master/README_CH.md
+//            greendaohelper : 'com.github.yuweiguocn:GreenDaoUpgradeHelper:v1.3.0',
+            // json parser.
+//            fastjson       : 'com.alibaba:fastjson:1.1.54.android',
+            //https://github.com/YancyYe/ImageSelector
+//            gallerypick    : 'com.github.YancyYe:GalleryPick:1.2.1',
+            //http://zhengxiaoyong.me/2017/04/23/Android%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E6%A1%86%E6%9E%B6-Tiny/
+//            imagetiny      : 'com.zxy.android:tiny:0.0.4',
+            //https://github.com/chrisbanes/PhotoView
+//            photoView      : 'com.github.chrisbanes:PhotoView:2.0.0'
+    ]
+
+}
