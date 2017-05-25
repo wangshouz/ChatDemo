@@ -1,5 +1,7 @@
 # ChatDemo
 ChatDemo
+聊天RecyclerView暂未处理；
+图片选择、拍照等具体实现暂未处理。
 
 ## ChatActivity
 可以调用ChatActivity.startChat(new User(nickName,avatiar),MainActivity.this);来启动ChatActivity。
