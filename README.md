@@ -1,6 +1,5 @@
 # ChatDemo
-ChatDemo
-聊天RecyclerView暂未处理；
+聊天RecyclerView暂未处理；</br>
 图片选择、拍照等具体实现暂未处理。
 
 ## ChatActivity
